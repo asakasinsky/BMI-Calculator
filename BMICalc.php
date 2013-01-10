@@ -15,7 +15,7 @@ if ( !function_exists( 'add_action' ) ) {
     exit;
 }
 
-define('BMICALC_VERSION', '0.2.0');
+define('BMICALC_VERSION', '1.2.2');
 
 function BMICalc($args) {
 
