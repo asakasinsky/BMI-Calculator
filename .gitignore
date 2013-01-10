@@ -39,6 +39,5 @@ publish
 .idea
 
 # build script local files
-/build
-
+/node_modules
 /.git

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="BMI Calc осталось: страницы с описанием заключения, дизайн" />
+<link href="http://localhost.dev/BMI/jquery-ui.css" rel="stylesheet" type="text/css" />
+<script src="http://localhost.dev/BMI/jquery.min.js"></script>
+<script src="http://localhost.dev/BMI/jquery-ui.min.js"></script>
+  
+  <script src="http://localhost.dev/BMI/jquery.ui.touch-punch.min.js"></script>
+<meta charset=utf-8 />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<title>JS Bin</title>
+</head>
+<body>
+  
+<div class="bmicalc-widget">
+	<div class="bmicalc-header">
+      <h4>Идея!</h4>
+      <p>Сделать индикатор весов: вводишь рост, и он отрисовывает сектор нормально и низко. анимация дневника веса показывает отклонения веса</p>
+  </div>
+
+	<div class="b_bmicalc-height-slider">
+        <span class="bmicalc-scale-annotation">Рост (м)</span>
+		<div class="bmicalc-height-slider bmicalc-slider" id="bmicalc_height_slider"></div>
+	</div>
+
+	<div class="bmicalc-graph">
+		<div id="bmicalc-graph-inner">
+			<span id="bmicalc-gi-indicator" style=""></span>
+			<span id="bmicalc-gi-result" class="tooltip bmi-no" style="top: 155px; left: 6px;">17.8</span>
+			<span id="calc-weight" class="tooltip " style="left: -16px;">30.0кг</span>
+			<span id="calc-height" class="tooltip" style="top: 174px;">1.30м</span>
+		</div>
+	</div>
+
+	<div class="b_bmicalc-weight-slider">
+		<div class="bmicalc-weight-slider bmicalc-slider" id="bmicalc_weight_slider"></div>
+     <span class="bmicalc-scale-annotation">Вес (кг)</span>
+	</div>
+  <p class="bmicalc-conclusion">Ваш индекс массы тела составляет <span class="bmi-no">17.8</span>, это <span id="bmicalc-range" class="bmicalc-range"></span></p>
+</div>
+  
+  
+  
+  
+</body>
+</html>
